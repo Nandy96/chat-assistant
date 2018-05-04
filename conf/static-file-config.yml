@@ -1,0 +1,138 @@
+common-groups-allGroupTemplate:
+  contents:
+  - common/components/groups/allGroupController.js
+  filters: noop
+  output: deploy/controller-common-groups-allGroupTemplates.js
+components-authserver-authserver:
+  contents:
+  - common/components/authserver/authserver.js
+  filters: noop
+  output: deploy/controller-components-authserver-authservers.js
+components-time-based-services:
+  contents:
+  - common/components/time_based_services/time_based_services.js
+  filters: noop
+  output: deploy/controller-components-time-based-services.js
+components-labels_filter:
+  contents:
+  - common/components/labels/labelFilter.js
+  filters: noop
+  output: deploy/controller-components-labels_filters.js
+components-appRF_widget:
+  contents:
+  - common/components/appRF_widget/appRF_widget.js
+  filters: noop
+  output: deploy/controller-components-appRF_widgets.js
+components-external_captive_portal-captiveportal:
+  contents:
+  - common/components/external_captive_portal/captiveportal.js
+  filters: noop
+  output: deploy/controller-components-external_captive_portal-captiveportals.js
+components-internal_captive_portal-splash_visuals:
+  contents:
+  - common/components/internal_captive_portal/splash_visuals.js
+  filters: noop
+  output: deploy/controller-components-internal_captive_portal-splash_visualss.js
+components-walled_garden-walled:
+  contents:
+  - common/components/walled_garden/walled.js
+  filters: noop
+  output: deploy/controller-components-walled_garden-walleds.js
+frontend-static-external:
+  contents:
+  - common/components/walled_garden/walled.js
+  filters: noop
+  output: deploy/controller-frontend-static-externals.js
+label_management:
+  contents:
+  - common/modules/labels/management/controller.js
+  filters: noop
+  output: deploy/label_management.js
+country_list:
+  contents:
+  - common/modules/labels/management/countryList.js
+  filters: noop
+  output: deploy/countryList.js
+label_assignment:
+  contents:
+  - common/modules/labels/assignment/controller.js
+  filters: noop
+  output: deploy/label_assignment.js
+rbac_management:
+  contents:
+  - common/modules/rbac_management/roles_management/model.js
+  - common/modules/rbac_management/roles_management/controller.js
+  filters: noop
+  output: deploy/rbac_management.js
+group_ui_management:
+  contents:
+  - common/modules/group_management/model.js
+  - common/modules/group_management/controller.js
+  filters: noop
+  output: deploy/group_ui_management.js
+device_management:
+  contents:
+  - common/modules/devices_licenses/device_management/controller.js
+  filters: noop
+  output: deploy/device_management.js
+license_management:
+  contents:
+  - common/modules/devices_licenses/license_management/controller.js
+  filters: noop
+  output: deploy/license_management.js
+license_assignment:
+  contents:
+  - common/modules/devices_licenses/license_assignment/controller.js
+  filters: noop
+  output: deploy/license_assignment.js
+cluster_management:
+  contents:
+  - common/modules/hybrid_cloud/cluster_management/controller.js
+  filters: noop
+  output: deploy/cluster_management.js
+aw_certificate:
+  contents:
+  - common/modules/aw_certificates/controller.js
+  filters: noop
+  output: deploy/aw_certificate.js
+aw_system:
+  contents:
+  - build/js/modules/aw_system.js
+  filters: noop
+  output: deploy/aw_system.js
+cloud_gateway:
+  contents:
+  - common/modules/cloud_gateway/controller.js
+  filters: noop
+  output: deploy/cloud_gateway.js
+visualrf-base-controller:
+  contents:
+  - acp_dashboard/apps/visualrf/controller.js
+  filters: noop
+  output: deploy/visualrf-base-controller.js
+acp-clarity-insights:
+  contents:
+  - acp_dashboard/apps/common/insights/controller.js
+  filters: noop
+  output: deploy/acp-clarity-insights-controller.js
+acp-ucc-insights:
+  contents:
+  - acp_dashboard/apps/ucc/insights/controller.js
+  filters: noop
+  output: deploy/acp-ucc-insights-controller.js
+acp-trouble-shooting:
+  contents:
+  - acp_dashboard/apps/air_group/trouble_shooting/controller.js
+  - acp_dashboard/apps/clarity/trouble_shooting/controller.js
+  filters: noop
+  output: deploy/acp-troubleshooting.js
+acp-clarity-wan-health:
+  contents:
+  - acp_dashboard/apps/clarity/wan_health/controller.js
+  filters: noop
+  output: deploy/acp-calrity-wan-health.js
+acp-uc-settings:
+  contents:
+  - acp_dashboard/apps/ucc/settings/controller.js
+  filters: noop
+  output: deploy/acp-uc-settings.js
